@@ -10,7 +10,7 @@ PDFs is good source of data, most of the organization release their data in PDFs
 *As you know PDF Processing comes under text analytics.*
 
 
-Most of the Text Analytics Library or frameworks are designed in Python only, this gives a leverage on text analytics. One more thing you can never process a pdf directly in exising frameworks of Machine Learning or Natural Language Processing. Unless they are proving explicit interface for this, **we have to convert pdf to text first.**
+Most of the Text Analytics Library or frameworks are designed in Python only, this gives a leverage on text analytics. You can never process a pdf directly in exising frameworks of Machine Learning or Natural Language Processing. Unless they are proving explicit interface for this, **we have to convert pdf to text first.**
 ## Problematic
 Most Python Liabiries for Pdf Processing such as PyPDF2 and Pdfminer.six perform in text extraction task, but this performance is limited to a sample PDF document.
 

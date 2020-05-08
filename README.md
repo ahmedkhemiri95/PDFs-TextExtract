@@ -30,11 +30,11 @@ That's why, **PDFs-TextExtract** project developed to **extract text from multip
 - **Step 10:** Execute *Terminal command* inside Python IDE : **pip install PyPDF2**
 
 ## Usage 
-- **Step 1:** Open **..\PDFs-TextExtract\samples** folder and put your PDF Documents inside.
-- **Step 2:** Execute **..\PDFs-TextExtract\Scripts\merged.py** script.
-- **Step 3:** Execute **..\PDFs-TextExtract\Scripts\spliter.py** script.
-- **Step 4:** Execute **..\PDFs-TextExtract\Scripts\extract_text.py** script.
-- **Step 5:** Open **..\PDFs-TextExtract\output** and you will find the result there.
+- **Step 1:** Open **..\PDFs-TextExtract-master\samples** folder and put your PDF Documents inside.
+- **Step 2:** Execute **..\PDFs-TextExtract-master\Scripts\merged.py** script.
+- **Step 3:** Execute **..\PDFs-TextExtract-master\Scripts\spliter.py** script.
+- **Step 4:** Execute **..\PDFs-TextExtract-master\Scripts\extract_text.py** script.
+- **Step 5:** Open **..\PDFs-TextExtract-master\output** and you will find the result there.
 
 ## Resources 
 - [Overview about PDF Processing with Python](https://towardsdatascience.com/pdf-preprocessing-with-python-19829752af9f)

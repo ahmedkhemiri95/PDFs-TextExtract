@@ -2,6 +2,16 @@
 Python Multiple PDF Documents Text Extraction - Python 3.7
 ![Logo](XPDF.jpg)
 
+## CARA eksekusi
+sh main.sh
+
+setelah itu cek 'folder/output'
+CTRL + H untuk replace
+1. \n with space
+2. kode <0xsdx>
+3. 
+
+
 ## Introduction
 **As a Data Scientist , You may not stick to data format.** 
 

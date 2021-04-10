@@ -73,7 +73,7 @@ python-dateutil==2.7.3
 python-dotenv==0.17.0
 pytz==2018.5
 pyvis==0.1.7.0
-PyYAML==5.3
+PyYAML==5.4
 rdflib==5.0.0
 regex==2021.3.17
 requests==2.22.0

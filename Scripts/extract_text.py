@@ -12,7 +12,7 @@ class PDFToText:
 
     def __init__(self, filePath):
         self.outString = StringIO()  # instantiate object
-        self.pdfPath = str(filePath)
+        self.pdfPath = filePath
 
     def openFile(self):
         with open(self.pdfPath, 'rb') as pdfFile:

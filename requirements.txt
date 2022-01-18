@@ -1,10 +1,7 @@
-pyparsing==2.4.1.1
-PyPDF2==1.26.0
-pyperclip==1.7.0
-pytesseract==0.2.6
-pytest==5.0.1
-python-crfsuite==0.9.6
-python-dateutil==2.7.3
-python-dotenv==0.17.0
-pytz==2018.5
-
+cffi==1.15.0
+chardet==4.0.0
+cryptography==36.0.1
+pdfminer==20191125
+pdfminer.six==20211012
+pycparser==2.21
+pycryptodome==3.12.0

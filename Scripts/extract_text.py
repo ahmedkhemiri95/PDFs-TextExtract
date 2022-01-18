@@ -27,4 +27,6 @@ class PDFToText:
             for page in PDFPage.create_pages(doc):
                 interpreter.process_page(page)
 
-        print(outString.getvalue())
+    def run(self):
+        self.openFile()
+        return self.outString.getvalue()

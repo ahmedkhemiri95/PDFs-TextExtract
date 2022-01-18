@@ -7,8 +7,6 @@ if __name__ == '__main__':
     extractText = PDFToText(userInputPDF)
     writeText = extractText.run()
 
-    if '\\' in userOutPDF:
-        userOutPDF = userOutPDF.replace('\\', '\\')
-        with open(userOutPDF, 'w') as outPath:
-            for line in writeText:
-                outPath.write(line)
+    with open(userOutPDF, 'w') as outPath:
+        for line in writeText:
+            outPath.write(line)

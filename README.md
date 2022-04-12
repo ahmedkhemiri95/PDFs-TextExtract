@@ -18,6 +18,8 @@ That's why, **PDFs-TextExtract** project developed to **extract text from multip
 
 ## Setup Environment
 
+#### For use with MacOS X, the scripts will need to be modified to remove "/PDFs-TextExtract" from the path.
+
 - **Step 1:** Select Version of Python (Python 3.7) to Install from [Python.org](https://www.python.org/) website.
 - **Step 2:** Download Python Executable Installer.
 - **Step 3:** Run Executable Installer.

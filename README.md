@@ -31,9 +31,18 @@ That's why, **PDFs-TextExtract** project developed to **extract text from multip
 - **Step 6:** Add Python Path to Environment Variables (Optional).
 - **Step 7:** Install Python extension for your IDE (Visual Studio Code).
 - **Step 8:** Now you’ll be able to execute python scripts with your IDE (Visual Studio Code).
-- **Step 9:** Execute _Terminal command_ inside Python IDE : `pip install pdfminer.six`
-- **Step 10:** Execute _Terminal command_ inside Python IDE : `pip install PyPDF2`
-- **Step 11:** Ensure that you are running the latest version of PyPDF2 (should show 3.0.1) by using: `print(pypdf.__version__)`
+
+### Installing Required Packages
+
+#### Option 1:
+
+- Execute _Terminal command_ inside Python IDE : 'pip install -r requirements.txt'
+
+#### Option 2:
+
+- **Step 1:** Execute _Terminal command_ inside Python IDE : `pip install pdfminer.six`
+- **Step 2:** Execute _Terminal command_ inside Python IDE : `pip install PyPDF2`
+- **Step 3:** Ensure that you are running the latest version of PyPDF2 (should show 3.0.1) by using: `print(pypdf.__version__)`
 
 ## Usage
 

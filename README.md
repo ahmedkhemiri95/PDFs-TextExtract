@@ -36,7 +36,7 @@ That's why, **PDFs-TextExtract** project developed to **extract text from multip
 
 #### Option 1:
 
-- Execute _Terminal command_ inside Python IDE : 'pip install -r requirements.txt'
+- Execute _Terminal command_ inside Python IDE : `pip install -r requirements.txt`
 
 #### Option 2:
 

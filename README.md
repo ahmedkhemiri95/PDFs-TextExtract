@@ -2,6 +2,8 @@
 Python Multiple and Large PDF Documents Text Extraction - Python 3.7
 ![Logo](XPDF.jpg)
 
+
+
 ## Introduction
 **As a Data Scientist , You may not stick to data format.** 
 
@@ -40,6 +42,10 @@ That's why, **PDFs-TextExtract** project developed to **extract text from multip
 - **Step 3:** Execute **..\PDFs-TextExtract-master\Scripts\spliter.py** script.
 - **Step 4:** Execute **..\PDFs-TextExtract-master\Scripts\extract_text.py** script.
 - **Step 5:** Open **..\PDFs-TextExtract-master\output** and you will find the result there.
+
+## With bash script
+Execute 
+sh main.sh
 
 ## Resources 
 - [Overview about PDF Processing with Python](https://towardsdatascience.com/pdf-preprocessing-with-python-19829752af9f)

@@ -1,0 +1,2 @@
+pdfminer.six
+PyPDF2

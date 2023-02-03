@@ -3,6 +3,8 @@
 Python Multiple and Large PDF Documents Text Extraction - Python 3.7
 ![Logo](XPDF.jpg)
 
+
+
 ## Introduction
 
 **As a Data Scientist , You may not stick to data format.**
@@ -32,6 +34,13 @@ That's why, **PDFs-TextExtract** project developed to **extract text from multip
 - **Step 7:** Install Python extension for your IDE (Visual Studio Code).
 - **Step 8:** Now you’ll be able to execute python scripts with your IDE (Visual Studio Code).
 
+=======
+- **Step 9:** 
+
+## Install dependencies
+
+    pip install -r requirements.txt
+
 ### Installing Required Packages
 
 #### Option 1:
@@ -54,6 +63,8 @@ That's why, **PDFs-TextExtract** project developed to **extract text from multip
 
 ## Resources
 
-- [Overview about PDF Processing with Python](https://towardsdatascience.com/pdf-preprocessing-with-python-19829752af9f)
-- **pdf2txt** tool forked from [pdfminer.six](https://github.com/pdfminer/pdfminer.six) project.
-- **merger** and **spliter** tools forked from [PyPDF2](https://github.com/mstamy2/PyPDF2) project.
+=======
+## With bash script
+Execute 
+sh main.sh
+

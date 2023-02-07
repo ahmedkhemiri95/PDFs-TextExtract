@@ -32,14 +32,6 @@ That's why, **PDFs-TextExtract** project developed to **extract text from multip
 - **Step 7:** Install Python extension for your IDE (Visual Studio Code).
 - **Step 8:** Now you’ll be able to execute python scripts with your IDE (Visual Studio Code).
 
-=======
-
-- **Step 9:**
-
-## Install dependencies
-
-    pip install -r requirements.txt
-
 ### Installing Required Packages
 
 #### Option 1:
@@ -56,15 +48,16 @@ That's why, **PDFs-TextExtract** project developed to **extract text from multip
 
 - **Step 1:** Open **..\PDFs-TextExtract-master\samples** folder and put your PDF Documents inside.
 - **Step 2:** Execute **..\PDFs-TextExtract-master\Scripts\merged.py** script.
-- **Step 3:** Execute **..\PDFs-TextExtract-master\Scripts\splitter.py** script.
+- **Step 3:** Execute **..\PDFs-TextExtract-master\Scripts\spliter.py** script.
 - **Step 4:** Execute **..\PDFs-TextExtract-master\Scripts\extract_text.py** script.
 - **Step 5:** Open **..\PDFs-TextExtract-master\output** and you will find the result there.
 
 ## Resources
 
-=======
+- [Overview about PDF Processing with Python](https://towardsdatascience.com/pdf-preprocessing-with-python-19829752af9f)
+- **pdf2txt** tool forked from [pdfminer.six](https://github.com/pdfminer/pdfminer.six) project.
+- **merger** and **spliter** tools forked from [PyPDF2](https://github.com/mstamy2/PyPDF2) project.
 
-## With bash script
+## With Bash Script
 
-Execute
-sh main.sh
+Execute `sh main.sh`

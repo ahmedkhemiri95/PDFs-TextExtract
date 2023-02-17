@@ -1,3 +1,6 @@
 # We don't want to publish other people's documents due to copyright issues.
 output/*.txt
 samples/*.pdf
+
+# Mac Files
+.DS_Store

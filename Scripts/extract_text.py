@@ -1,4 +1,5 @@
 import os
+import sys
 import re
 from pdfminer.pdfinterp import PDFResourceManager, PDFPageInterpreter
 from pdfminer.converter import TextConverter
@@ -8,19 +9,15 @@ from io import BytesIO
 
 
 def clear_text():
-    open("../output/Output.txt", "w").close()
-
-# writelines function
-
-
+   open("../PDFs-TextExtract/output/Output.txt", "w").close()
+   
+#writelines function
 def writelines(self, lines):
     self._checkClosed()
     for line in lines:
-        self.write(line)
+       self.write(line)
 
-# PDF to text Function.
-
-
+#PDF to text Function. 
 def pdf_to_text(path):
     manager = PDFResourceManager()
     retstr = BytesIO()
@@ -41,21 +38,26 @@ def pdf_to_text(path):
 
 if __name__ == "__main__":
 
-    clear_text()
-    # fname : List contain pdf documents names.
-    fname = os.listdir('../split/')
-    # fname: must be sorted.
-    fname.sort(key=lambda f: int(re.sub('\D', '', f)))
-    length = len(fname)
+ clear_text()
+ fname = os.listdir('../PDFs-TextExtract/split/') #fname : List contain pdf documents names.
+ #fname: must be sorted.
+ fname.sort(key=lambda f: int(re.sub('\D', '', f)))
+ length = len(fname) 
 
-    for i in range(length):  # Repeat each operation for each document.
 
-        # Extract text with PDF_to_text Function call
-        text_output = pdf_to_text(('../split/{}').format(fname[i]))
-        # Decode result from bytes to text
-        text1_output = text_output.decode("utf-8")
-        print(text1_output)
+ for i in range(length): #Repeat each operation for each document.
 
-        # Save extracted text to TEXT_FILE
-        with open("../output/Output.txt", "a", encoding="utf-8") as text_file:
-            text_file.writelines(text1_output)
+     text_output = pdf_to_text(('../PDFs-TextExtract/split/{}').format(fname[i])) #Extract text with PDF_to_text Function call
+     text1_output = text_output.decode("utf-8")     #Decode result from bytes to text
+     print(text1_output)
+
+    
+      #Save extracted text to TEXT_FILE    
+     with open("../PDFs-TextExtract/output/Output.txt", "a", encoding="utf-8") as text_file:
+       text_file.writelines(text1_output)
+
+
+
+
+
+   

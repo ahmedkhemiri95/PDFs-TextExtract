@@ -9,6 +9,6 @@ pdfminer==20191125
 pycryptodome==3.10.1
 PyPDF2==1.26.0
 typing-extensions==3.10.0.0
-Werkzeug==2.0.1
+Werkzeug==2.2.3
 zipp==3.4.1
 numpy
